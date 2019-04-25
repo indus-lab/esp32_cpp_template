@@ -10,7 +10,7 @@ extern "C" {
 void app_main(void)
 {
     while (true) {
-        std::string hellomessage = "Hello There!";
+        std::string hellomessage = "Hi There!";
         std::cout << hellomessage << '\n';
         vTaskDelay(5000 / portTICK_PERIOD_MS);
     }
